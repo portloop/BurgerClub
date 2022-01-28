@@ -1,0 +1,695 @@
+@font-face {
+    font-family: "CapIt";
+    src: url(../fonts/Captureit.ttf);
+}
+
+@font-face {
+    font-family: "RobBl";
+    src: url(../fonts/RobotoBlack.ttf);
+}
+
+@font-face {
+    font-family: "RobB";
+    src: url(../fonts/RobotoBold.ttf);
+}
+
+@font-face {
+    font-family: "RobL";
+    src: url(../fonts/RobotoLight.ttf);
+}
+
+@font-face {
+    font-family: "Rob";
+    src: url(../fonts/RobotoRegular.ttf);
+}
+
+@font-face {
+    font-family: "RobT";
+    src: url(../fonts/RobotoThin.ttf);
+}
+
+@font-face {
+    font-family: "Lifehack";
+    src: url(../fonts/Lifehack-Basic.otf);
+}
+
+body {
+    margin: 0;
+    background: #f7f6f7;
+}
+
+#main {
+    background-image: url(../image/main-bg.png);
+    height: 908px;
+    background-position: center;
+}
+
+.header {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.logo span {
+    font-size: 30px;
+    font-family: "CapIt", sans-serif;
+    color: rgb(254, 254, 254);
+    line-height: 1.8;
+}
+
+.header-menu ul {
+    font-size: 16px;
+    font-family: "Rob", sans-serif;
+    color: rgb(255, 255, 255);
+    display: flex;
+    width: 580px;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+.header-menu ul li:first-child {
+    list-style: none;
+}
+
+.header-menu ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.active {
+    font-family: "RobB", sans-serif;
+}
+
+.btn-white {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 10px;
+    width: 207px;
+    height: 48px;
+    font-size: 13px;
+    font-family: "RobB", sans-serif;
+    color: rgb(254, 254, 254);
+    text-transform: uppercase;
+    line-height: 2.308;
+    text-align: center;
+    background: transparent;
+}
+
+.btn-white:hover {
+    border-color: #f6a501;
+    color: #f6a501;
+    cursor: pointer;
+    outline: 0;
+}
+
+.tittles {
+    max-width: 1170px;
+    margin: 70px auto 0 auto;
+}
+
+.tittle-burgers {
+    width: 600px;
+    height: 130px;
+    background: url(../image/stamp.png);
+    background-size: 100% 100%;
+    font-size: 55px;
+    font-family: "CapIt", sans-serif;
+    color: rgb(246, 165, 1);
+    line-height: 0.982;
+    text-shadow: 0px 0px 91.16px rgba(2, 7, 8, 0.004);
+    text-align: center;
+    line-height: 130px;
+}
+
+.btn-yellow {
+    font-size: 15px;
+    font-family: "RobBl", sans-serif;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    line-height: 2;
+    text-align: center;
+    border-radius: 10px;
+    background-image: -moz-linear-gradient(180deg, rgb(255, 199, 59) 0%, rgb(235, 161, 0) 100%);
+    background-image: -webkit-linear-gradient(180deg, rgb(255, 199, 59) 0%, rgb(235, 161, 0) 100%);
+    background-image: -ms-linear-gradient(180deg, rgb(255, 199, 59) 0%, rgb(235, 161, 0) 100%);
+    box-shadow: 0px 0px 13.5px 1.5px rgba(204, 142, 6, 0.004);
+    width: 209px;
+    height: 50px;
+    margin-top: 60px;
+    outline: 0;
+    border: 0;
+}
+
+.btn-yellow:hover {
+    box-shadow: 0px 0px 13.5px 1.5px rgba(204, 142, 6, 1);
+    cursor: pointer;
+}
+
+.tittle-text {
+    font-size: 40px;
+    font-family: "Lifehack", sans-serif;
+    line-height: 1;
+    text-align: left;
+    text-shadow: 0px 0px 14.25px rgba(2, 7, 8, 0.004);
+    -moz-transform: matrix(0.99320644518279, -0.11636561883718, 0.11636561883718, 0.99320644518279, 0, 0);
+    -webkit-transform: matrix(0.99320644518279, -0.11636561883718, 0.11636561883718, 0.99320644518279, 0, 0);
+    -ms-transform: matrix(0.99320644518279, -0.11636561883718, 0.11636561883718, 0.99320644518279, 0, 0);
+    color: #fff;
+    margin-top: 35px;
+}
+
+.tittle-text span {
+    color: rgb(246, 166, 1);
+}
+
+/* features */
+#features {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+#features .feature {
+    width: 390px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin: 25px 0;
+}
+
+#features .feature .feature-image {
+    width: 96px;
+    height: 79px;
+    margin: 0 auto 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#features .feature .feature-tittle {
+    font-size: 20px;
+    font-family: "RobB", sans-serif;
+    color: rgb(51, 23, 3);
+    margin-bottom: 20px;
+}
+
+#features .feature .feature-text {
+    font-size: 18px;
+    font-family: "RobL", sans-serif;
+    color: rgb(51, 23, 3);
+    line-height: 1.222;
+    text-align: center;
+}
+
+#description {
+    height: 993px;
+    background: url(../image/second-bg.png);
+    background-position: center;
+}
+
+
+.block-tittle {
+    font-size: 35px;
+    font-family: "RobB", sans-serif;
+    color: rgb(246, 165, 1);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+#description .block-tittle {
+    padding-top: 200px;
+}
+
+.decriptions-container {
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.description-text .decription-text-tittle {
+    font-size: 29px;
+    font-family: "Lifehack", sans-serif;
+    color: rgb(254, 254, 254);
+    line-height: 1.167;
+    margin: 115px 0 45px 0;
+}
+
+.description-text .description-text-words {
+    font-size: 16px;
+    font-family: "RobL", sans-serif;
+    color: rgb(254, 254, 254);
+    line-height: 1.563;
+    text-indent: 20px;
+    margin: 15px 0;
+}
+
+.description-text {
+    max-width: 425px;
+}
+
+#stock {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+#stock .block-tittle {
+    margin: 70px auto 45px auto;
+    color: rgb(51, 23, 3);
+}
+
+#stock .category-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+
+#stock .category {
+    font-size: 20px;
+    font-family: "RobL", sans-serif;
+    color: rgb(51, 23, 3);
+    text-align: center;
+    border: 1px solid transparent;
+    margin: 0 10px;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+#stock .category.active {
+    font-family: "RobB", sans-serif;
+    border: 1px solid rgb(51, 23, 3);
+    ;
+}
+
+#stock .category:hover {
+    border: 1px solid rgb(51, 23, 3);
+    cursor: pointer;
+}
+
+.products {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.products .product {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.products .product .product-image {
+    width: 580px;
+    height: 450px;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products .product .product-image img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+
+.products .product .product-content {
+    width: 500px;
+}
+
+.products .product .product-content .product-content-tittle {
+    font-size: 25px;
+    font-family: "RobB", sans-serif;
+    color: rgb(51, 23, 3);
+    text-transform: uppercase;
+    margin: 100px 0 35px 0;
+}
+
+
+.products .product .product-content .product-content-description {
+    font-size: 16px;
+    font-family: "RobL", sans-serif;
+    color: rgb(51, 23, 3);
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+
+.products .product .product-content-properties {
+    display: flex;
+}
+
+.products .product .product-content-property:first-child {
+    margin-right: 80px;
+}
+
+
+.products .product .product-content-property span {
+    font-size: 20px;
+    font-family: "RobL", sans-serif;
+    color: rgb(51, 23, 3);
+}
+
+.products .product .product-content-property img {
+    margin-right: 10px;
+}
+
+.products-nav {
+    display: flex;
+    margin-bottom: 95px;
+    margin-top: 10px;
+    width: 580px;
+}
+
+.products-nav .product-nav {
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    opacity: 0.3;
+}
+
+.products-nav .product-nav img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#stock .products-nav .product-nav:focus {
+    opacity: 1;
+}
+
+.product-nav .slick-current {
+    opacity: 1;
+}
+
+.products-nav .product-nav:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.products-nav .product-nav:focus {
+    outline: 0;
+}
+
+.slick-slide img {
+    display: inline;
+}
+
+#stock .slick-prev:before {
+    content: url(../image/prev.png);
+}
+
+#stock .slick-next:before {
+    content: url(../image/next.png);
+}
+
+#stock .slick-next {
+    left: 600px;
+}
+
+#fries-container,
+#sauses-container,
+#drinks-container {
+    display: none;
+}
+
+#info {
+    background: url(../image/info-bg.png);
+    background-position: top center;
+    padding: 1px 0;
+    background-size: auto 100%;
+}
+
+#info .block-tittle {
+    margin: 120px 0 60px 0;
+}
+
+#reviews {
+    display: flex;
+    justify-content: space-around;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+#reviews .review {
+    display: flex;
+    align-items: flex-start;
+    width: 470px;
+    justify-content: space-between;
+    outline: 0;
+    margin: 0 50px;
+}
+
+#reviews .review .review-image {
+    border-radius: 50%;
+    width: 112px;
+    height: 112px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+#reviews .review .review-text {
+    width: 325px;
+}
+
+#reviews .review .review-text .review-text-tittle {
+    font-size: 22px;
+    font-family: "RobB", sans-serif;
+    color: rgb(254, 254, 254);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+#reviews .review .review-text .review-text-description {
+    font-size: 16px;
+    font-family: "RobL", sans-serif;
+    color: rgb(254, 254, 254);
+    line-height: 25px;
+}
+
+#adresses {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+#adresses .block-tittle {
+    margin: 116px 0 60px 0;
+}
+
+.adresses-container {
+    display: flex;
+    justify-content: center;
+}
+
+.adresses-container .adress-container {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0 15px;
+}
+
+.adresses-container .adress-container .adress {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 10px;
+    width: 470px;
+}
+
+.adresses-container .adress-container .adress .adress-text {
+    margin-top: 25px;
+    text-align: left;
+    padding: 0 90px;
+}
+
+.adresses-container .adress-container .adress .adress-text span {
+    font-size: 20px;
+    font-family: "RobB", sans-serif;
+    color: rgb(247, 246, 246);
+    margin-left: 15px;
+}
+
+.adresses-container .adress-container .adress .adress-button {
+    margin: 40px auto 25px auto;
+    text-align: center;
+}
+
+.adresses-container .adress-container .adress .adress-text img {
+    vertical-align: middle;
+}
+
+.instagram {
+    margin: 85px auto;
+    width: 1170px;
+    text-align: center;
+}
+
+.instagram .instagram-text {
+    font-size: 20px;
+    font-family: "RobBl", sans-serif;
+    color: #f3a600;
+    text-transform: uppercase;
+    margin-top: 35px;
+}
+
+.instagram a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: rgb(18, 8, 1);
+    height: 60px;
+    font-size: 10px;
+    font-family: "RobT", sans-serif;
+    color: rgb(188, 188, 188);
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 60px;
+}
+
+#reviews .slick-prev:before {
+    content: url(../image/prev-gray.png);
+}
+
+#reviews .slick-next:before {
+    content: url(../image/next-gray.png);
+}
+
+#reservation-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+#reservation {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(63, 63, 63);
+    border-radius: 10px;
+    background-color: transparent;
+    box-shadow: 0px 0px 40.67px 8.33px rgba(2, 7, 8, 1);
+    width: 584px;
+    padding: 45px 35px 70px 35px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#reservation #reservation-cancel {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#reservation h2.block-tittle {
+    font-size: 25px;
+}
+
+#burger{
+    display: none;
+    color: #fff;
+    font-size: 32px;
+    line-height: 30px;
+}
+
+#reservation #reserve {
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#reservation #reserve-error{
+    color: red;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    margin: 10px;
+    display: none;
+}
+
+#reservation .reserve-input label {
+    font-size: 11px;
+    font-family: "Rob", sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    line-height: 22px;
+}
+
+#reservation .reserve-input {
+    margin-top: 15px;
+}
+
+#reservation .reserve-input input {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 10px;
+    width: 248px;
+    height: 39px;
+    background: transparent;
+    color: #fff;
+    outline: 0;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+#reservation #reserve-button {
+    text-align: center;
+}
+
+#reservation #reserve-button button {
+    margin-top: 0;
+}
+
+#reservation #reservation-send{
+    display: none;
+}
+
+#reservation #reservation-send h2.block-tittle{
+    margin-top: 95px;
+        font-size: 25px;
+        font-family: "RobB", sans-serif;
+        color: rgb(246, 165, 1);
+        text-transform: uppercase;
+}
+
+#reservation #reservation-send #reservation-send-text{
+        font-size: 15px;
+        font-family: "Rob";
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin: 35px 0 110px 0;
+}
+
+.show-menu a.btn-yellow{
+    text-decoration: none;
+    display: block;
+    line-height: 50px;
+}
+
+.slick-current .product-nav {
+    opacity: 1;
+}
